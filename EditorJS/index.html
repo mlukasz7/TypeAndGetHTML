@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/mycss.css">
+        <!-- Fontello -->
+        <link rel="stylesheet" href="fonts/css/fontello.css">
+
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">JS</h1>
+            </header>
+        </div>
+
+<!--         <div class="main-container">
+            <div class="main wrapper clearfix"> -->
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <article>
+                      <nav id="editorNav">
+                          <div class="labelIcons">
+                            <button id="bold" title="Bold"><i class="icon-bold"></i></button>
+                            <button id="italic" title="Italic"><i class="icon-italic"></i></button>
+                            <button id="underline" title="Underline"><i class="icon-underline"></i></button>
+                            <button id="strikeThrough" title="Strike Through"><i class="icon-strike"></i></button>
+                            <button id="left" title="Align Left"><i class="icon-align-left"></i></button>
+                            <button id="center" title="Align Center"><i class="icon-align-center"></i></button>
+                            <button id="right" title="Align Right"><i class="icon-align-right"></i></button>
+                            <button id="full" title="Align Justyfy"><i class="icon-align-justify"></i></button>
+                            <button id="superscript" title="Superscript"><i class="icon-superscript"></i></button>
+                            <button id="subscript" title="Subscript"><i class="icon-subscript"></i></button>
+                            <button id="bLink" data-toggle="modal" data-target="#myModal" title="Link"><i class="icon-link"></i></button>
+                            <span class="inputSpan"><input type="color" title="Color"></span>
+                            <button id="ul" title="Unordered list"><i class="icon-list-bullet"></i></button>
+                            <button id="ol" title="Ordered list"><i class="icon-list-numbered"></i></button>
+                            <button id="picture" title="Picture"><i class="icon-picture"></i></button>
+                            <button id="undo" title="Undo"><i class="icon-ccw"></i></button>
+                          </div>
+
+                      </nav>
+                    </div> <!-- /.col-sm-12 -->
+                  </div> <!-- /.row -->
+                  <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+                  <!-- Modal window -->
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title">Create a link</h4>
+                        </div>
+                        <div class="modal-body">
+                          <label for="link">http://</label>
+                          <input type="text" id="linkField" autofocus>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                          <button id="CreateLink" type="button" class="btn btn-primary">Create link</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+                  <div class="row">
+                       <div class="col-sm-12">
+                          <div id="toCopy" class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quas quae, explicabo similique repellat, fuga omnis et eligendi possimus quia. Quod sapiente animi atque ducimus, reiciendis, in sit alias consequuntur repellat architecto autem id! Asperiores ducimus cum unde nihil eius commodi numquam labore nemo. Odio cupiditate deserunt dolorem quasi voluptas aliquam id mollitia suscipit facilis, eaque architecto omnis voluptate magnam eos, itaque facere. Reiciendis voluptas repellat in expedita at dicta optio, qui, sequi libero, magni ullam officiis distinctio similique ex.</div>
+                       </div>
+                     </div>
+                  <div class="row">
+                       <div class="col-sm-12">
+                         <div class="send">
+                            <button id="showHTML" class="btn btn-default">Show HTML code</button>
+                            <button id="cpyCode" class="btn btn-primary">Copy HTML code</button>
+                         </div>
+                        <!-- Modal window -->
+                        <div class="modal fade" tabindex="-1" role="dialog" id="modalHTML">
+                          <div class="modal-dialog">
+                            <div class="modal-content style="text-align: lefy;" ">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">HTML code</h4>
+                              </div>
+                              <div id="htmlHere" class="modal-body">
+        
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                <button id="copyHTML" type="button" class="btn btn-primary">Copy code</button>
+                              </div>
+                            </div><!-- /.modal-content -->
+                          </div><!-- /.modal-dialog -->
+                        </div><!-- /.modal --> 
+                       </div>
+                     </div>   
+                  </article>
+                
+            </div>
+
+<!--             </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+
+
+    </body>
+</html>
