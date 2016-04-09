@@ -1,4 +1,18 @@
-# TypeAndGetHTML
-Writing and formating code plus possibility to get the HTML code<br><br>
+## Description
+Writing and formating code plus possibility to get the HTML code
+
 ![alt tag](https://github.com/mlukasz7/TypeAndGetHTML/blob/master/ViewToHTML.gif?raw=true)
 
+## Installation
+
+1. Download & extract .zip
+2. Open index.html
+3. Enjoy
+
+## **[DEMO]**
+
+## Contact
+
+l.mordasiewicz@gmail.com
+
+[DEMO]: <http://htmlpreview.github.io/?https://github.com/mlukasz7/TypeAndGetHTML/blob/master/EditorJS/index.html>
