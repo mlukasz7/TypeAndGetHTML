@@ -9,7 +9,7 @@ Writing and formating code plus possibility to get the HTML code
 2. Open index.html
 3. Enjoy
 
-## <a href="http://htmlpreview.github.io/?https://github.com/mlukasz7/TypeAndGetHTML/blob/master/EditorJS/index.html" target="_blank"></a>
+## <a href="http://htmlpreview.github.io/?https://github.com/mlukasz7/TypeAndGetHTML/blob/master/EditorJS/index.html" target="_blank">DEMO</a>
 
 ## Contact
 
